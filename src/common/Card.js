@@ -1,3 +1,4 @@
+import { inject } from "@vercel/analytics";
 import { encodeHTML, flexLayout } from "./utils.js";
 
 class Card {
@@ -28,6 +29,7 @@ class Card {
     defaultTitle = "",
     titlePrefixIcon,
   }) {
+    inject();
     this.width = width;
     this.height = height;
 
@@ -214,7 +216,7 @@ class Card {
         role="img"
         aria-labelledby="descId"
       >
-        <foreignObject><script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script><script defer="defer" src="/_vercel/insights/script.js"></script></foreignObject>
+        <foreignObject><!--<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script><script defer="defer" src="/_vercel/insights/script.js"></script>--></foreignObject>
         <title id="titleId">${this.a11yTitle}</title>
         <desc id="descId">${this.a11yDesc}</desc>
         <style>

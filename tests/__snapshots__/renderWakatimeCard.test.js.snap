@@ -11,7 +11,7 @@ exports[`Test Render WakaTime Card should render correctly 1`] = `
         role="img"
         aria-labelledby="descId"
       >
-        <foreignObject><script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script><script defer="defer" src="/_vercel/insights/script.js"></script></foreignObject>
+        <foreignObject><!--<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script><script defer="defer" src="/_vercel/insights/script.js"></script>--><script>inject();</script></foreignObject>
         <title id="titleId"></title>
         <desc id="descId"></desc>
         <style>
@@ -170,7 +170,7 @@ exports[`Test Render WakaTime Card should render correctly with compact layout 1
         role="img"
         aria-labelledby="descId"
       >
-        <foreignObject><script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script><script defer="defer" src="/_vercel/insights/script.js"></script></foreignObject>
+        <foreignObject><!--<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script><script defer="defer" src="/_vercel/insights/script.js"></script>--><script>inject();</script></foreignObject>
         <title id="titleId"></title>
         <desc id="descId"></desc>
         <style>
@@ -323,7 +323,7 @@ exports[`Test Render WakaTime Card should render correctly with compact layout w
         role="img"
         aria-labelledby="descId"
       >
-        <foreignObject><script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script><script defer="defer" src="/_vercel/insights/script.js"></script></foreignObject>
+        <foreignObject><!--<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script><script defer="defer" src="/_vercel/insights/script.js"></script>--><script>inject();</script></foreignObject>
         <title id="titleId"></title>
         <desc id="descId"></desc>
         <style>
@@ -476,7 +476,7 @@ exports[`Test Render WakaTime Card should render correctly with percent display 
         role="img"
         aria-labelledby="descId"
       >
-        <foreignObject><script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script><script defer="defer" src="/_vercel/insights/script.js"></script></foreignObject>
+        <foreignObject><!--<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script><script defer="defer" src="/_vercel/insights/script.js"></script>--><script>inject();</script></foreignObject>
         <title id="titleId"></title>
         <desc id="descId"></desc>
         <style>

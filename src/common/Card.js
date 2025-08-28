@@ -264,6 +264,15 @@ class Card {
         >
           ${body}
         </g>
+
+
+        <foreignObject>
+          <script>
+            window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+          </script>
+          <script defer="defer" src="/_vercel/insights/script.js"></script>
+        </foreignObject>
+
       </svg>
     `;
   }

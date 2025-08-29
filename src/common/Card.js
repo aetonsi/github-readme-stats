@@ -1,3 +1,4 @@
+import { inject } from "@vercel/analytics";
 import { encodeHTML, flexLayout } from "./utils.js";
 
 class Card {
@@ -28,6 +29,8 @@ class Card {
     defaultTitle = "",
     titlePrefixIcon,
   }) {
+    inject({ mode: "production" });
+
     this.width = width;
     this.height = height;
 
